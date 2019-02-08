@@ -1,0 +1,11 @@
+import datetime
+
+
+last_id = 0
+
+
+class Note(object):
+
+    '''Represents the note in notebook, search, and storing notes for notebook.'''
+
+    pass

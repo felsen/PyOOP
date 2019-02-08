@@ -1,0 +1,7 @@
+# Swap files
+*.swp
+*.swo
+
+# Python compiled files
+*.pyc
+__pycache__/
