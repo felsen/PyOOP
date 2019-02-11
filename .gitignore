@@ -1,6 +1,7 @@
 # Swap files
 *.swp
 *.swo
+1
 
 # Python compiled files
 *.pyc
