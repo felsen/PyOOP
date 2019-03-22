@@ -10,6 +10,7 @@ a = [[x, y] for x in num_restruct for y in num_restruct if not x == y]
 first_idx, second_idx = None, None
 for n in a:
     if sum([num[n[0]], num[n[1]]]) == target:
-        print([n[0], n[1]])
-
+        first_idx = n[0]
+        second_idx = n[1]
+        break
 print(first_idx, second_idx)
