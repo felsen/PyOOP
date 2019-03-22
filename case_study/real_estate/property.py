@@ -49,3 +49,9 @@ class Apratments(Property):
         parent_init.update({'laundary': laundary, 'balcany': balcany})
         return parent_init
 
+    def get_valid_input(input_string, valid_options):
+        input_string += f"({', '.join(valid_options)})"
+        response = input(input_string)
+        while response.lower() not in valid_options:
+            response = input(input_string)
+        return response
